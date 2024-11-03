@@ -7,7 +7,9 @@
     <RootNamespace>E_commerce</RootNamespace>
   </PropertyGroup>
 	
-<ItemGroup  >
+<ItemGroup>
+	
+<PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
 	
 <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0"></PackageReference>
 <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0"></PackageReference>

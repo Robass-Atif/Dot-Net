@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+h2 {
+    font-size: 2rem; /* Increase the font size of the heading */
+    color: #343a40; /* Dark text color */
+}
+
+.btn {
+    font-size: 1rem; /* Increase button font size */
+}
+
+a {
+    color: #007bff; /* Bootstrap primary color for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}

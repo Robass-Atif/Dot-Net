@@ -63,3 +63,4 @@ C:\Users\Mohammad Robass\Desktop\My Work\DOT NET\E-commerce\E-commerce\bin\Debug
 C:\Users\Mohammad Robass\Desktop\My Work\DOT NET\E-commerce\E-commerce\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Mohammad Robass\Desktop\My Work\DOT NET\E-commerce\E-commerce\obj\Debug\net8.0\E-commerce.csproj.AssemblyReference.cache
 C:\Users\Mohammad Robass\Desktop\My Work\DOT NET\E-commerce\E-commerce\obj\Debug\net8.0\E-commerce.csproj.Up2Date
+C:\Users\Mohammad Robass\Desktop\My Work\DOT NET\E-commerce\E-commerce\obj\Debug\net8.0\E-commerce.sourcelink.json
