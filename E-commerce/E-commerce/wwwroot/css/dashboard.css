@@ -2,13 +2,13 @@
 body, html {
     height: 100%;
     margin: 0;
-    overflow: hidden;
+    overflow: hidden; /* Prevents scrolling */
 }
 
 /* Main dashboard container */
 .dashboard-container {
     display: flex;
-    height: 100vh;
+    height: 100vh; /* Ensure full viewport height */
     background-color: #f8f9fa;
 }
 
@@ -18,12 +18,18 @@ body, html {
     background-color: #343a40;
     color: #fff;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    height: 100vh;
+    height: 100vh; /* Full height of viewport */
+    position: fixed; /* Sticks sidebar to the left */
+    top: 0;
+    left: 0;
+    padding-top: 1rem; /* Adds some space at the top */
+    z-index: 1000; /* Ensures it stays on top */
 }
 
     .sidebar h3 {
         color: #ffffff;
         margin-bottom: 1.5rem;
+        text-align: center; /* Center align the title */
     }
 
     .sidebar .nav {
@@ -38,6 +44,7 @@ body, html {
         padding: 10px 15px;
         margin-bottom: 10px; /* Add vertical spacing between links */
         transition: color 0.3s, background-color 0.3s;
+        display: block;
     }
 
         .sidebar .nav-link:hover {
@@ -52,15 +59,19 @@ body, html {
 
 /* Main content styling */
 .content {
+    margin-left: 250px; /* Prevent content from being hidden under the sidebar */
     background-color: #ffffff;
     overflow-y: auto;
     padding: 20px;
+    height: 100vh; /* Ensure content fills the remaining height */
+    box-sizing: border-box; /* Include padding in height calculation */
 }
 
     .content h2 {
         font-weight: bold;
     }
 
+/* Card styling */
 .card {
     background-color: #f0f2f5;
     border: none;
@@ -73,8 +84,13 @@ body, html {
     margin-bottom: 1rem;
 }
 
+/* Footer styling */
 .footer {
     background-color: #343a40;
     color: #fff;
     padding: 10px 0;
+    text-align: center; /* Center footer text */
+    position: absolute; /* Footer sticks at the bottom */
+    bottom: 0;
+    width: 100%; /* Full width */
 }

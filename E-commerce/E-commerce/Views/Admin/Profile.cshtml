@@ -1,0 +1,64 @@
+﻿@model List<Admin>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Welcome to the Profile Page</h1>
+
+    <form method="post" >
+        <!-- Admin ID (hidden) -->
+        <input type="hidden" name="admin_id" value="@Model[0].admin_id" />
+
+        <!-- Admin Name -->
+        <div class="form-group mb-3">
+            <label for="admin_name" class="form-label">Admin Name</label>
+            <input type="text" class="form-control" id="admin_name" name="admin_name" value="@Model[0].admin_name" />
+        </div>
+
+        <!-- Admin Email -->
+        <div class="form-group mb-3">
+            <label for="admin_email" class="form-label">Admin Email</label>
+            <input type="email" class="form-control" id="admin_email" name="admin_email" value="@Model[0].admin_email" />
+        </div>
+
+        <!-- Admin Password -->
+        <div class="form-group mb-3">
+            <label for="admin_password" class="form-label">Admin Password</label>
+            <input type="password" class="form-control" id="admin_password" name="admin_password" value="@Model[0].admin_password" />
+        </div>
+
+        <!-- Admin Image (hidden) -->
+        <input type="hidden" name="admin_image" value="@Model[0].admin_image" />
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary">Update Profile</button>
+    </form>
+</div>
+<form method="post" asp-action="ChangeImage" enctype="multipart/form-data">
+    <div class="mb-3">
+        <input type="hidden" name="admin_id" value="@Model[0].admin_id" />
+        <input type="hidden" name="admin_name" value="@Model[0].admin_name" />
+        <input type="hidden" name="admin_email" value="@Model[0].admin_email" />
+        <input type="hidden" name="admin_password" value="@Model[0].admin_password" />
+    </div>
+
+    <!-- Image Input -->
+    <div class="mb-3">
+        <label for="admin_image" class="form-label">Admin Image</label>
+        <input type="file" class="form-control" name="admin_image" id="admin_image" />
+    </div>
+
+    <!-- Display the current image -->
+    <div class="mb-3">
+        <label class="form-label">Current Image</label>
+        <div class="text-center">
+            <img src="@("~/Images/" + Model[0].admin_image)" class="img-fluid rounded-circle" alt="Admin Image" style="max-width: 200px;" />
+        </div>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="mb-3">
+        <input type="submit" class="btn btn-primary" name="name" value="Update Image" />
+    </div>
+</form>
+
+
+
