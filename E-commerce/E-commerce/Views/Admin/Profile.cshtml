@@ -50,7 +50,7 @@
     <div class="mb-3">
         <label class="form-label">Current Image</label>
         <div class="text-center">
-            <img src="@("~/Images/" + Model[0].admin_image)" class="img-fluid rounded-circle" alt="Admin Image" style="max-width: 200px;" />
+            <img src="@("~/Images/" + Model[0].admin_image)" class="img-fluid rounded-circle" asp-append-version="true" style="max-width: 200px;" />
         </div>
     </div>
 

@@ -1,0 +1,39 @@
+﻿<div class="container mt-5">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-danger text-white text-center">
+            <h2>Delete Customer</h2>
+        </div>
+        <div class="card-body text-center">
+            <h4>Are you sure you want to delete this customer?</h4>
+            <p class="text-muted">This action cannot be undone.</p>
+
+            <!-- Display customer details -->
+            <div class="my-3">
+                <input type="hidden" name="customer_id" value="@Model.customer_id" />
+                <div class="form-group">
+                    <label for="customer_name">Name:</label>
+                    <input type="text" id="customer_name" class="form-control text-center" name="customer_name" value="@Model.customer_name" readonly />
+                </div>
+                <div class="form-group">
+                    <label for="customer_email">Email:</label>
+                    <input type="email" id="customer_email" class="form-control text-center" name="customer_email" value="@Model.customer_email" readonly />
+                </div>
+            </div>
+
+            <!-- Hidden fields -->
+            <input type="hidden" name="customer_password" value="@Model.customer_password" />
+            <input type="hidden" name="customer_phone" value="@Model.customer_phone" />
+            <input type="hidden" name="customer_address" value="@Model.customer_address" />
+            <input type="hidden" name="customer_country" value="@Model.customer_country" />
+            <input type="hidden" name="customer_city" value="@Model.customer_city" />
+            <input type="hidden" name="customer_image" value="@Model.customer_image" />
+
+            <!-- Action buttons -->
+            <div class="d-flex justify-content-center mt-4">
+                <a href="@Url.Action("DeleteCustomer", "Admin", new { id = Model.customer_id })" class="btn btn-danger ">Delete</a>
+
+                <a href="@Url.Action("Customer", "Admin")" class="btn btn-secondary mx-2 px-4">Cancel</a>
+            </div>
+        </div>
+    </div>
+</div>

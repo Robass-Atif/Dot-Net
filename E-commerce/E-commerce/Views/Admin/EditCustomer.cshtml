@@ -1,0 +1,65 @@
+﻿@model Customer
+
+<div class="container mt-5">
+	<h1 class="mb-4">Edit Customer</h1>
+
+	<form method="post"  enctype="multipart/form-data">
+		<!-- Customer ID (hidden) -->
+		<input type="hidden" name="customer_id" value="@Model.customer_id" />
+
+		<!-- Customer Name -->
+		<div class="form-group mb-3">
+			<label for="customer_name" class="form-label text-dark">Customer Name</label>
+			<input type="text" class="form-control" id="customer_name" name="customer_name" value="@Model.customer_name" />
+		</div>
+
+		<!-- Customer Email -->
+		<div class="form-group mb-3">
+			<label for="customer_email" class="form-label text-dark">Customer Email</label>
+			<input type="email" class="form-control" id="customer_email" name="customer_email" value="@Model.customer_email" />
+		</div>
+
+		<!-- Customer Password -->
+		<div class="form-group mb-3">
+			<label for="customer_password" class="form-label text-dark">Customer Password</label>
+			<input type="password" class="form-control" id="customer_password" name="customer_password" value="@Model.customer_password" />
+		</div>
+
+		<!-- Customer Phone -->
+		<div class="form-group mb-3">
+			<label for="customer_phone" class="form-label text-dark">Customer Phone</label>
+			<input type="text" class="form-control" id="customer_phone" name="customer_phone" value="@Model.customer_phone" />
+		</div>
+
+		<!-- Customer Address -->
+		<div class="form-group mb-3">
+			<label for="customer_address" class="form-label text-dark">Customer Address</label>
+			<input type="text" class="form-control" id="customer_address" name="customer_address" value="@Model.customer_address" />
+		</div>
+
+		<!-- Customer Country -->
+		<div class="form-group mb-3">
+			<label for="customer_country" class="form-label text-dark">Customer Country</label>
+			<input type="text" class="form-control" id="customer_country" name="customer_country" value="@Model.customer_country" />
+		</div>
+
+		<!-- Customer City -->
+		<div class="form-group mb-3">
+			<label for="customer_city" class="form-label text-dark">Customer City</label>
+			<input type="text" class="form-control" id="customer_city" name="customer_city" value="@Model.customer_city" />
+		</div>
+
+		<!-- Customer Image -->
+		<div class="form-group mb-3">
+			<label for="customer_image" class="form-label text-dark">Customer Image</label>
+			<input type="file" class="form-control" id="customer_image" value="@Model.customer_image" name="customer_image" />
+
+
+			<img src="@("~/customerImages/"+Model.customer_image)" asp-append-version="true" class="mt-3" style="max-width: 100px;" />
+		
+		</div>
+
+		<!-- Submit Button -->
+		<button type="submit" class="btn btn-primary">Save Changes</button>
+	</form>
+</div>
