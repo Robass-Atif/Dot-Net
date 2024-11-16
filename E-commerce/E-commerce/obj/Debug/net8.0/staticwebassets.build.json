@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WJ1MrX4igfzRdk6i5hKgUrv6Z0H6nf2Gr5Q+OsCuSPg=",
+  "Hash": "69bshb1h7dJ+svEIUwziuCXXUWmqCyQ9cmWIJJPRzEU=",
   "Source": "E-commerce",
   "BasePath": "_content/E-commerce",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\customerImages\\about.png",
+      "SourceId": "E-commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\",
+      "BasePath": "_content/E-commerce",
+      "RelativePath": "customerImages/about.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\customerImages\\about.png"
     },
     {
       "Identity": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\customerImages\\Annotation 2024-06-24 212851.png",
@@ -1269,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\productImages\\about.png",
+      "SourceId": "E-commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\",
+      "BasePath": "_content/E-commerce",
+      "RelativePath": "productImages/about.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\productImages\\about.png"
     }
   ]
 }

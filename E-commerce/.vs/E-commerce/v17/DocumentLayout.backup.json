@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\editcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\editcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\shared\\_dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\fetchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\fetchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|c:\\users\\mohammad robass\\desktop\\my work\\dot net\\e-commerce\\e-commerce\\views\\admin\\categorydropdown.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3ED846C-860C-4E0C-A329-E376801ADEA5}|E-commerce\\E-commerce.csproj|solutionrelative:e-commerce\\views\\admin\\categorydropdown.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,157 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\Customer.cshtml",
-              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\Customer.cshtml",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\Customer.cshtml",
-              "RelativeToolTip": "E-commerce\\Views\\Admin\\Customer.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T16:09:34.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConfirmDelete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\ConfirmDelete.cshtml",
-              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\ConfirmDelete.cshtml",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\ConfirmDelete.cshtml*",
-              "RelativeToolTip": "E-commerce\\Views\\Admin\\ConfirmDelete.cshtml*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAABTAAAAAAAAAA==",
+              "Title": "DeleteProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\DeleteProduct.cshtml",
+              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\DeleteProduct.cshtml",
+              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\DeleteProduct.cshtml",
+              "RelativeToolTip": "E-commerce\\Views\\Admin\\DeleteProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T06:28:52.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditCustomer.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\EditCustomer.cshtml",
-              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\EditCustomer.cshtml",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\EditCustomer.cshtml",
-              "RelativeToolTip": "E-commerce\\Views\\Admin\\EditCustomer.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAADYAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T04:07:41.065Z",
+              "WhenOpened": "2024-11-16T04:25:34.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "E-commerce\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Models\\Customer.cs",
-              "RelativeToolTip": "E-commerce\\Models\\Customer.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T16:34:18.339Z",
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\EditProduct.cshtml",
+              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeToolTip": "E-commerce\\Views\\Admin\\EditProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T04:21:52.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\Profile.cshtml",
-              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\Profile.cshtml",
-              "RelativeToolTip": "E-commerce\\Views\\Admin\\Profile.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADQAAABeAAAAAAAAAA==",
+              "Title": "CategoryDropdown.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\CategoryDropdown.cshtml",
+              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\CategoryDropdown.cshtml",
+              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\CategoryDropdown.cshtml",
+              "RelativeToolTip": "E-commerce\\Views\\Admin\\CategoryDropdown.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T14:00:53.496Z",
+              "WhenOpened": "2024-11-15T08:07:39.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "E-commerce\\Views\\Admin\\AddProduct.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T08:03:00.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "fetchProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\fetchProducts.cshtml",
+              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\fetchProducts.cshtml",
+              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\fetchProducts.cshtml",
+              "RelativeToolTip": "E-commerce\\Views\\Admin\\fetchProducts.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T07:07:14.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "E-commerce\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Controllers\\AdminController.cs",
               "RelativeToolTip": "E-commerce\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJUAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAABAAAAAAAAAAAIwAkBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T03:52:36.025Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Shared\\_Dashboard.cshtml",
-              "RelativeDocumentMoniker": "E-commerce\\Views\\Shared\\_Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Shared\\_Dashboard.cshtml",
-              "RelativeToolTip": "E-commerce\\Views\\Shared\\_Dashboard.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAswFUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:19:11.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "E-commerce\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T05:28:36.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Program.cs",
-              "RelativeDocumentMoniker": "E-commerce\\Program.cs",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Program.cs",
-              "RelativeToolTip": "E-commerce\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T04:36:24.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dashboard.css",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\css\\dashboard.css",
-              "RelativeDocumentMoniker": "E-commerce\\wwwroot\\css\\dashboard.css",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\css\\dashboard.css",
-              "RelativeToolTip": "E-commerce\\wwwroot\\css\\dashboard.css",
-              "ViewState": "AgIAAE0AAAAAAAAAAADwv2MAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-06T09:55:10.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\Login.cshtml",
-              "RelativeDocumentMoniker": "E-commerce\\Views\\Admin\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\Admin\\Login.cshtml",
-              "RelativeToolTip": "E-commerce\\Views\\Admin\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T09:33:41.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "E-commerce\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "E-commerce\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T03:26:31.054Z"
             }
           ]
         }

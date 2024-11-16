@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\customerImages\\Annotation 2024-06-24 212851.png"
     },
     {
+      "Id": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\customerImages\\about.png",
+      "PackagePath": "staticwebassets\\customerImages\\about.png"
+    },
+    {
       "Id": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -259,6 +263,10 @@
     {
       "Id": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\productImages\\about.png",
+      "PackagePath": "staticwebassets\\productImages\\about.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-commerce.Microsoft.AspNetCore.StaticWebAssets.props",

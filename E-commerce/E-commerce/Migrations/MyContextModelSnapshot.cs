@@ -208,7 +208,25 @@ namespace E_commerce.Migrations
 
                     b.HasKey("product_id");
 
+                    b.HasIndex("category_id");
+
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("E_commerce.Models.Product", b =>
+                {
+                    b.HasOne("E_commerce.Models.Category", "Category")
+                        .WithMany("products")
+                        .HasForeignKey("category_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("E_commerce.Models.Category", b =>
+                {
+                    b.Navigation("products");
                 });
 #pragma warning restore 612, 618
         }

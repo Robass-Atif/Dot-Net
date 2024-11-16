@@ -158,5 +158,116 @@ namespace E_commerce.Controllers
 			MyContext.SaveChanges();
 			return RedirectToAction("Customer");
 		}
-	}
+        public IActionResult fetchCategory()
+        {
+            return View(MyContext.Categories.ToList());
+        }   
+        public IActionResult AddCategory()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddCategory(Category category)
+        {
+            MyContext.Categories.Add(category);
+            MyContext.SaveChanges();
+            return RedirectToAction("fetchCategory");
+        }
+        public IActionResult EditCategory(int id)
+        {
+            var category = MyContext.Categories.Find(id);
+            return View(category);
+        }
+        [HttpPost]
+        public IActionResult EditCategory(Category category)
+        {
+            MyContext.Categories.Update(category);
+            MyContext.SaveChanges();
+            return RedirectToAction("fetchCategory");
+        }
+        public IActionResult ConfirmDeleteCategory(int id)
+        {
+            return View(MyContext.Categories.Find(id));
+        }
+        public IActionResult DeleteCategory(int id)
+        {
+            var category = MyContext.Categories.Find(id);
+            MyContext.Categories.Remove(category);
+            MyContext.SaveChanges();
+            return RedirectToAction("fetchCategory");
+        }
+        public IActionResult fetchProducts()
+        {
+            return View(MyContext.Products.ToList());
+        }
+        public IActionResult AddProduct()
+        {
+            List<Category> Categories = MyContext.Categories.ToList();
+            ViewData["Categories"] = Categories;
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddProduct(Product product, IFormFile product_image)
+        {
+                string ImagePath=Path.GetFileName(product_image.FileName);
+                string filePath = Path.Combine(_env.WebRootPath, "productImages",ImagePath);
+
+            // Save the uploaded file to the server
+            var fs = new FileStream(filePath, FileMode.Create);
+                
+                    product_image.CopyTo(fs);
+                
+
+                // Update the product's image path with the new file name
+                product.product_image = ImagePath;
+            
+
+            // Update the product record in the database
+            MyContext.Products.Add(product);
+            MyContext.SaveChanges();
+
+            return RedirectToAction("fetchProducts");
+        }
+        public IActionResult EditProduct(int id)
+        {
+            ViewBag.Categories = MyContext.Categories.ToList();
+            var product = MyContext.Products.Find(id);
+            return View(product);
+        }
+        [HttpPost]
+        public IActionResult EditProduct(Product product, IFormFile product_image)
+        {
+            // Check if a new image has been uploaded
+            if (product_image != null && product_image.Length > 0)
+            {
+                string filePath = Path.Combine(_env.WebRootPath, "productImages", product_image.FileName);
+
+                // Save the uploaded file to the server
+                using (var fs = new FileStream(filePath, FileMode.Create))
+                {
+                    product_image.CopyTo(fs);
+                }
+
+                // Update the product's image path with the new file name
+                product.product_image = product_image.FileName;
+            }
+
+            // Update the product record in the database
+            MyContext.Products.Update(product);
+            MyContext.SaveChanges();
+
+            return RedirectToAction("fetchProducts");
+        }
+        public IActionResult ConfirmDeleteProduct(int id)
+        {
+            return View(MyContext.Products.Find(id));
+        }
+        public IActionResult DeleteProduct(int id) {
+            
+            var product = MyContext.Products.Find(id);
+            MyContext.Products.Remove(product);
+            MyContext.SaveChanges();
+            return RedirectToAction("fetchProducts");
+        }
+    }
 }

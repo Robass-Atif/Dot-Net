@@ -1,0 +1,60 @@
+﻿<h1 class="text-center mb-5 text-primary fw-bold">Add Product</h1>
+
+<form method="post" enctype="multipart/form-data" class="mx-auto p-4 shadow-lg rounded-4" style="max-width: 600px; background-color: #f8f9fa;">
+
+	<!-- Product Name -->
+	<div class="mb-3">
+		<label for="product_name" class="form-label fw-semibold text-secondary">Product Name</label>
+		<input type="text" id="product_name" name="product_name" class="form-control shadow-sm rounded-3" placeholder="Enter Product Name" required />
+	</div>
+
+	<!-- Product Price -->
+	<div class="mb-3">
+		<label for="product_price" class="form-label fw-semibold text-secondary">Product Price</label>
+		<input type="text" id="product_price" name="product_price" class="form-control shadow-sm rounded-3" placeholder="Enter Product Price" required />
+	</div>
+
+	<!-- Product Description -->
+	<div class="mb-3">
+		<label for="product_description" class="form-label fw-semibold text-secondary">Product Description</label>
+		<input type="text" id="product_description" name="product_description" class="form-control shadow-sm rounded-3" placeholder="Enter Product Description" required />
+	</div>
+
+	<!-- Product Image -->
+	<div class="mb-3">
+		<label for="product_image" class="form-label fw-semibold text-secondary">Product Image</label>
+		<input type="file" id="product_image" name="product_image" class="form-control shadow-sm rounded-3" />
+	</div>
+
+	<!-- Category Dropdown -->
+	<div class="mb-3">
+		<label for="category" class="form-label fw-semibold text-secondary">Category</label>
+		@Html.Partial("CategoryDropdown", ViewData["Categories"])
+	</div>
+
+	<!-- Submit Button -->
+	<div class="text-center">
+		<button type="submit" class="btn btn-success btn-lg w-100 shadow-sm rounded-3 fw-bold" style="transition: all 0.3s ease;">
+			Add Product
+		</button>
+	</div>
+</form>
+
+<!-- Additional Styling -->
+<style>
+	.btn-success:hover {
+		background-color: #198754;
+		transform: scale(1.02);
+	}
+
+	.form-control:focus {
+		border-color: #86b7fe;
+		box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+	}
+
+	h1 {
+		animation: fadeIn 1s ease-in-out;
+	}
+
+
+</style>

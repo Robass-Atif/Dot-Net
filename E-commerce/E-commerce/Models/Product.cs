@@ -14,5 +14,6 @@ namespace E_commerce.Models
         public string product_image { get; set; }
 
         public int category_id { get; set; }
+        public Category Category { get; set; }
     }
 }

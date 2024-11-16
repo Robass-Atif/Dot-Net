@@ -1,0 +1,12 @@
+﻿@model List<Category>
+
+<div class="mb-3">
+    <label for="categoryDropdown" class="form-label fs-5">Select Category</label>
+    <select name="category_id" class="form-select shadow-sm" aria-label="Select Category">
+        <option value="" selected hidden>Select Category</option>
+        @foreach (var category in Model)
+        {
+            <option value="@category.category_id">@category.category_name</option>
+        }
+    </select>
+</div>
