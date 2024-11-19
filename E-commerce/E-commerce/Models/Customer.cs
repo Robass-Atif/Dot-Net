@@ -8,12 +8,12 @@ namespace E_commerce.Models
         public string customer_name { get; set; }
         public string customer_email { get; set; }
         public string customer_password { get; set; }
-        public string customer_phone { get; set; }
+        public string? customer_phone { get; set; }
 
-        public string customer_address { get; set; }
-        public string customer_image { get; set; }
-        public string customer_country { get; set; }
-        public string customer_city { get; set; }
+        public string? customer_address { get; set; }
+        public string? customer_image { get; set; }
+        public string? customer_country { get; set; }
+        public string? customer_city { get; set; }
 
 
     }

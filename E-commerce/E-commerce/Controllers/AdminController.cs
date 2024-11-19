@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting; // For IWebHostEnvironment
 using Microsoft.AspNetCore.Http; // For IFormFile
 using System.IO;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_commerce.Controllers
 {
@@ -113,12 +114,22 @@ namespace E_commerce.Controllers
             return RedirectToAction("Profile");
         }
         public IActionResult Customer() {
-            return View(MyContext.Customers.ToList());
+			var result = HttpContext.Session.GetString("AdminEmail");
+			if (result == null)
+			{
+				return RedirectToAction("Login");
+			}
+			return View(MyContext.Customers.ToList());
         }
 
         public IActionResult EditCustomer(int id)
         {
-            var customer = MyContext.Customers.Find(id);
+			var result = HttpContext.Session.GetString("AdminEmail");
+			if (result == null)
+			{
+				return RedirectToAction("Login");
+			}
+			var customer = MyContext.Customers.Find(id);
             return View(customer);
         }
         [HttpPost]
@@ -149,7 +160,12 @@ namespace E_commerce.Controllers
 
 		public IActionResult ConfirmDelete(int id)
         {
-            return View(MyContext.Customers.Find(id));
+			var result = HttpContext.Session.GetString("AdminEmail");
+			if (result == null)
+			{
+				return RedirectToAction("Login");
+			}
+			return View(MyContext.Customers.Find(id));
 		}
         public IActionResult DeleteCustomer(int id)
 		{
@@ -160,7 +176,12 @@ namespace E_commerce.Controllers
 		}
         public IActionResult fetchCategory()
         {
-            return View(MyContext.Categories.ToList());
+			var result = HttpContext.Session.GetString("AdminEmail");
+			if (result == null)
+			{
+				return RedirectToAction("Login");
+			}
+			return View(MyContext.Categories.ToList());
         }   
         public IActionResult AddCategory()
         {
@@ -175,7 +196,12 @@ namespace E_commerce.Controllers
         }
         public IActionResult EditCategory(int id)
         {
-            var category = MyContext.Categories.Find(id);
+			var result = HttpContext.Session.GetString("AdminEmail");
+			if (result == null)
+			{
+				return RedirectToAction("Login");
+			}
+			var category = MyContext.Categories.Find(id);
             return View(category);
         }
         [HttpPost]
@@ -187,7 +213,12 @@ namespace E_commerce.Controllers
         }
         public IActionResult ConfirmDeleteCategory(int id)
         {
-            return View(MyContext.Categories.Find(id));
+			var result = HttpContext.Session.GetString("AdminEmail");
+			if (result == null)
+			{
+				return RedirectToAction("Login");
+			}
+			return View(MyContext.Categories.Find(id));
         }
         public IActionResult DeleteCategory(int id)
         {
@@ -198,11 +229,21 @@ namespace E_commerce.Controllers
         }
         public IActionResult fetchProducts()
         {
-            return View(MyContext.Products.ToList());
+			var result = HttpContext.Session.GetString("AdminEmail");
+			if (result == null)
+			{
+				return RedirectToAction("Login");
+			}
+			return View(MyContext.Products.ToList());
         }
         public IActionResult AddProduct()
         {
-            List<Category> Categories = MyContext.Categories.ToList();
+			var result = HttpContext.Session.GetString("AdminEmail");
+			if (result == null)
+			{
+				return RedirectToAction("Login");
+			}
+			List<Category> Categories = MyContext.Categories.ToList();
             ViewData["Categories"] = Categories;
             return View();
         }
@@ -269,5 +310,12 @@ namespace E_commerce.Controllers
             MyContext.SaveChanges();
             return RedirectToAction("fetchProducts");
         }
-    }
+        public IActionResult DetailsProduct(int id)
+		{
+            var product = MyContext.Products.Include(p => p.Category).FirstOrDefault(p => p.product_id == id);
+
+            return View(product);
+		}
+
+	}
 }

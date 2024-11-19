@@ -1,0 +1,130 @@
+﻿
+@{
+    
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+@model Customer
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Update Profile</h1>
+
+    <form method="post" enctype="multipart/form-data" class="row g-4">
+        <!-- Hidden field for customer ID -->
+        <input type="hidden" name="customer_id" value="@Model.customer_id" />
+
+        <!-- Name field -->
+        <div class="col-md-6">
+            <label for="customerName" class="form-label">Name</label>
+            <input type="text"
+                   class="form-control"
+                   id="customerName"
+                   name="customer_name"
+                   value="@Model.customer_name"
+                   placeholder="Enter your name"
+                   required />
+        </div>
+
+        <!-- Email field -->
+        <div class="col-md-6">
+            <label for="customerEmail" class="form-label">Email</label>
+            <input type="email"
+                   class="form-control"
+                   id="customerEmail"
+                   name="customer_email"
+                   value="@Model.customer_email"
+                   placeholder="Enter your email"
+                   required />
+        </div>
+
+        <!-- Password field -->
+        <div class="col-md-6">
+            <label for="customerPassword" class="form-label">Password</label>
+            <input type="password"
+                   class="form-control"
+                   id="customerPassword"
+                   name="customer_password"
+                   placeholder="Enter your password"
+                   required />
+        </div>
+
+        <!-- Phone field -->
+        <div class="col-md-6">
+            <label for="customerPhone" class="form-label">Phone</label>
+            <input type="tel"
+                   class="form-control"
+                   id="customerPhone"
+                   name="customer_phone"
+                   value="@Model.customer_phone"
+                   placeholder="Enter your phone number"
+                   required />
+        </div>
+
+        <!-- Address field -->
+        <div class="col-md-12">
+            <label for="customerAddress" class="form-label">Address</label>
+            <input type="text"
+                   class="form-control"
+                   id="customerAddress"
+                   name="customer_address"
+                   value="@Model.customer_address"
+                   placeholder="Enter your address"
+                   required />
+        </div>
+
+        <!-- Country field -->
+        <div class="col-md-6">
+            <label for="customerCountry" class="form-label">Country</label>
+            <input type="text"
+                   class="form-control"
+                   id="customerCountry"
+                   name="customer_country"
+                   value="@Model.customer_country"
+                   placeholder="Enter your country"
+                   required />
+        </div>
+
+        <!-- City field -->
+        <div class="col-md-6">
+            <label for="customerCity" class="form-label">City</label>
+            <input type="text"
+                   class="form-control"
+                   id="customerCity"
+                   name="customer_city"
+                   value="@Model.customer_city"
+                   placeholder="Enter your city"
+                   required />
+        </div>
+
+        <!-- Profile Picture -->
+        <div class="col-md-12">
+            <label for="profileImage" class="form-label">Profile Picture</label>
+            <input type="file"
+                   class="form-control"
+                   id="profileImage"
+                   name="customer_image"
+                   
+                   value="@Model.customer_image" />
+                   
+            <div class="mt-3 text-center">
+                <img src="@("~/customerImages/"+Model.customer_image)"
+                     asp-append-version="true"
+                     alt="Profile Picture"
+                     height="260"
+                     width="260"
+                     class="rounded-circle border" />
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-12 text-center mt-4">
+            <button type="submit" class="btn btn-primary px-4">Update Profile</button>
+        </div>
+
+        <!-- Back Button -->
+        <div class="col-12 text-center mt-2">
+            <a href="@Url.Action("Index", "Customer")" class="btn btn-secondary px-4">Back</a>
+        </div>
+    </form>
+</div>
+
+
+
