@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Update Cart";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+@model Cart
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Update Cart</h1>
+    <form method="post" class="needs-validation" novalidate>
+        <!-- Hidden fields -->
+        <input type="hidden" name="cart_id" value="@Model.cart_id" />
+        <input type="hidden" name="cart_quantity" value="@Model.cart_quantity" />
+        <input type="hidden" name="product_id" value="@Model.product_id" />
+        <input type="hidden" name="customer_id" value="@Model.customer_id" />
+
+        <!-- Cart Status -->
+        <div class="form-group mb-3">
+            <label for="cart_status" class="form-label">Cart Status</label>
+            <select name="cart_status" id="cart_status" class="form-select" value="@Model.cart_status" >
+                <option value="0" >Pending</option>
+                <option value="1" >Delivered</option>
+            </select>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">Update</button>
+        </div>
+    </form>
+</div>

@@ -337,7 +337,31 @@ namespace E_commerce.Controllers
         }
         public IActionResult FetchCart()
         {
-            return View(MyContext.Carts.ToList());
+            var cart= MyContext.Carts.Include(p=>p.Product).Include(c => c.Customer).ToList();
+            return View(cart);
+        }
+        public IActionResult ConfirmDeleteCart(int id)
+        {
+            return View(MyContext.Carts.Find(id));
+        }
+        public IActionResult DeleteCart(int id)
+        {
+            var cart = MyContext.Carts.Find(id);
+            MyContext.Carts.Remove(cart);
+            MyContext.SaveChanges();
+            return RedirectToAction("FetchCart");
+        }
+        public IActionResult UpdateCart(int id)
+        {
+            var cart = MyContext.Carts.Find(id);
+            return View(cart);
+        }
+        [HttpPost]
+        public IActionResult UpdateCart(Cart cart)
+        {
+            MyContext.Carts.Update(cart);
+            MyContext.SaveChanges();
+            return RedirectToAction("FetchCart");
         }
     }
 }

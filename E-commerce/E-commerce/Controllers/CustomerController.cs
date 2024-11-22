@@ -156,6 +156,30 @@ namespace E_commerce.Controllers
             return RedirectToAction("Login");
         }
 
+        public IActionResult AllCart()
+        {
+            int? customer_id = HttpContext.Session.GetInt32("customer_id");
+
+            if (customer_id.HasValue)
+
+            {
+                ViewBag.checkSession = HttpContext.Session.GetInt32("customer_id");
+
+                List<Cart> carts = MyContext.Carts.Include(c => c.Product).Where(c => c.customer_id == customer_id).ToList();
+                return View(carts);
+            }
+
+            return RedirectToAction("Login");
+        }
+
+        public IActionResult DeleteCart(int id)
+        {
+            Cart cart = MyContext.Carts.FirstOrDefault(c => c.cart_id == id);
+            MyContext.Carts.Remove(cart);
+            MyContext.SaveChanges();
+            return RedirectToAction("AllCart");
+        }
+
 
 
     }

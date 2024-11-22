@@ -11,6 +11,12 @@ namespace E_commerce.Models
         public int cart_quantity { get; set; }
         public int cart_status { get; set;  }
 
-      
+        [ForeignKey("product_id")]
+        public Product Product { get; set; }
+        [ForeignKey("customer_id")]
+        public Customer Customer { get; set; }
+
+
+
     }
 }
