@@ -1,0 +1,39 @@
+﻿
+@{
+
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center">Feedback</h1>
+
+    <div class="card p-4 shadow-sm">
+        <form method="post">
+            <!-- Username Field -->
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text"
+                       name="username"
+                       id="username"
+                       class="form-control"
+                       placeholder="Enter your name" />
+            </div>
+
+            <!-- User Message Field -->
+            <div class="mb-3">
+                <label for="user_message" class="form-label">Message</label>
+                <textarea name="user_message"
+                          id="user_message"
+                          class="form-control"
+                          placeholder="Enter your message"
+                          rows="4"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100">
+                Submit
+            </button>
+        </form>
+    </div>
+</div>
+

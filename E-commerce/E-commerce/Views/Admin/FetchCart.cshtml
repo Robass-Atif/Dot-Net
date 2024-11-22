@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "FetchCart";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+@model  List<Cart>
+<h1>FetchCart</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Cart ID</th>
+            <th>Product ID</th>
+            <th>Customer ID</th>
+            <th>Quantity</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) // Assuming Model is a collection of carts
+        {
+            <tr>
+                <td>@item.cart_id</td>
+                <td>@item.product_id</td>
+                <td>@item.customer_id</td>
+                <td>@item.cart_quantity</td>
+                <td>@item.cart_status</td>
+                <td>
+                    <a href="@Url.Action("Delete", "Cart", new { id = item.cart_id })"
+                       class="btn btn-danger"
+                       onclick="return confirm('Are you sure you want to delete this item?');">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

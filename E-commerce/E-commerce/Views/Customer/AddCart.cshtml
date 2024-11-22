@@ -1,0 +1,31 @@
+﻿
+@{
+ 
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+<div class="container mt-5 mb-5">
+    <h1 class="text-center text-primary mb-4">Add to Cart</h1>
+
+    <div class="card mx-auto" style="max-width: 400px;">
+        <img src="@Url.Content("~/productImages/" + Model.product_image)" class="card-img-top" asp-append-version="true" alt="@Model.product_name">
+        <div class="card-body">
+            <h5 class="card-title text-primary">@Model.product_name</h5>
+            <p class="card-text text-secondary">Product ID: @Model.product_id</p>
+            <p class="card-text text-secondary">@Model.product_price Rs</p>
+
+             <form method="post" class="mt-3">
+                <input type="hidden" name="product_id" value="@Model.product_id" />
+                
+                <input type="submit" class="btn btn-success w-100" value="Add to cart">
+            </form> 
+
+            <a href="@Url.Action("Index", "Customer")" class="btn btn-secondary w-100 mt-3">Back</a>
+
+          
+        </div>
+    </div> 
+</div>
+<div class="text-center text-success mt-2">
+    <h2>@TempData["Message"]</h2>
+</div>
+

@@ -1,0 +1,20 @@
+﻿
+@model List<Product>
+
+@foreach (var prod in Model.Take(3))
+{
+        <div class="col-md-4 mb-4">
+            <div class="card product-card">
+            <img src="@("~/productImages/"+prod.product_image)" class="card-img-top" asp-append-version="true">
+                <div class="card-body">
+                    <h5 class="card-title">@prod.product_name</h5>
+                    <p class="card-text">@prod.product_price Rs</p>
+                    
+                <a href="@Url.Action("AddCart","Customer",new { id =prod.product_id})" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Add more products as needed -->
+   
+}

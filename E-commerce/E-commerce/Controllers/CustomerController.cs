@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http; // For IFormFile
 using System.IO;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace E_commerce.Controllers
 {
@@ -21,6 +22,8 @@ namespace E_commerce.Controllers
         {
             List<Category> category=MyContext.Categories.ToList();
             ViewData["Category"]=category;
+            List<Product> product = MyContext.Products.ToList();
+            ViewData["Product"] = product;
             ViewBag.checkSession = HttpContext.Session.GetInt32("customer_id");
             return View();
         }
@@ -91,5 +94,69 @@ namespace E_commerce.Controllers
 
 
         }
+        public IActionResult FeedBack()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult FeedBack(Feedback feedback)
+        {
+            MyContext.Feedbacks.Add(feedback);
+            MyContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        public IActionResult AllProducts()
+        {
+            ViewBag.checkSession = HttpContext.Session.GetInt32("customer_id");
+            return View(MyContext.Products.ToList());
+
+        }
+        public IActionResult AddCart(int id)
+        {
+            ViewBag.checkSession = HttpContext.Session.GetInt32("customer_id");
+
+            Product product = MyContext.Products.FirstOrDefault(p => p.product_id == id);
+            return View(product);
+        }
+        // POST: Add product to cart
+        [HttpPost]
+        public IActionResult AddCart(int product_id, Cart cart)
+        {
+            int? customer_id = HttpContext.Session.GetInt32("customer_id");
+
+            if (customer_id.HasValue)
+            {
+                // Log the product_id for debugging (optional)
+                Console.WriteLine("Product ID: " + product_id);
+
+                // Initialize the cart object with necessary data
+                cart.product_id = product_id;
+                cart.customer_id = customer_id.Value;
+                cart.cart_quantity = 1; // Default quantity to 1
+                cart.cart_status = 0;   // Assuming 0 means it's in the cart and not purchased yet
+
+                // Add the cart item to the database
+                MyContext.Carts.Add(cart);
+
+               
+                    // Save changes to the database
+                    MyContext.SaveChanges();
+
+                    // Set a success message in TempData for one-time message display
+                    TempData["Message"] = "Product added to cart successfully!";
+                
+             
+                Product product = MyContext.Products.FirstOrDefault(p => p.product_id == product_id);
+              
+                ViewBag.checkSession = HttpContext.Session.GetInt32("customer_id");
+                return View(product);  // Returning the same view with the product data
+           
+            }
+
+            return RedirectToAction("Login");
+        }
+
+
+
     }
 }

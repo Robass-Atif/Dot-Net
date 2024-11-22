@@ -317,5 +317,27 @@ namespace E_commerce.Controllers
             return View(product);
 		}
 
-	}
+        public IActionResult FeedBackAdmin()
+        {
+            
+            return View(MyContext.Feedbacks.ToList());
+            
+        }
+        public IActionResult ConfirmDeleteFeedback(int id)
+        {
+            return View(MyContext.Feedbacks.Find(id));
+        }
+        public IActionResult DeleteFeedback(int id)
+        {
+			var feedback = MyContext.Feedbacks.Find(id);
+
+			MyContext.Feedbacks.Remove(feedback);
+            MyContext.SaveChanges();
+            return RedirectToAction("FeedBackAdmin");
+        }
+        public IActionResult FetchCart()
+        {
+            return View(MyContext.Carts.ToList());
+        }
+    }
 }

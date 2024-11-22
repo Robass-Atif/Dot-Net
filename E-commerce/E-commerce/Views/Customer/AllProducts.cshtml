@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "AllProducts";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+@model List<Product>
+
+<h1>All Products</h1>
+
+<div class="container">
+    <div class="row">
+        @foreach (var prod in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="@Url.Content("~/productImages/" + prod.product_image)" class="card-img-top" asp-append-version="true" alt="@prod.product_name">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">@prod.product_name</h5>
+                        <p class="card-text text-secondary">@prod.product_price Rs</p>
+                        <a href="@Url.Action("AddCart","Customer",new { id =prod.product_id})" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

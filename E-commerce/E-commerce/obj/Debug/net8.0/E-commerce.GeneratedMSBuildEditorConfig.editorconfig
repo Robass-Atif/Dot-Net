@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29uZmlybURlbGV0ZUNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Admin/ConfirmDeleteFeedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29uZmlybURlbGV0ZUZlZWRiYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Admin/ConfirmDeleteProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29uZmlybURlbGV0ZVByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,6 +78,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Admin/FeedBackAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRmVlZEJhY2tBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Admin/FetchCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRmV0Y2hDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Admin/fetchCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -94,8 +106,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Customer/AddCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQWRkQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Customer/AllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQWxsUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Customer/CustomerCategoryDropdown.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJDYXRlZ29yeURyb3Bkb3duLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Customer/FeedBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRmVlZEJhY2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Customer/Index.cshtml]
@@ -104,6 +128,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Customer/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Customer/ProductPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUHJvZHVjdFBhcnRpYWxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mohammad Robass/Desktop/My Work/DOT NET/E-commerce/E-commerce/Views/Customer/Profile.cshtml]

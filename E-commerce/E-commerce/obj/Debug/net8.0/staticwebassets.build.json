@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vqmBE0e2bBV7en05PDZ9m0MA12aYBRkOmkzfLuLuKxw=",
+  "Hash": "H5FgTIZ6VDY0x98QDI087FkIJ0RLDPJEOtZ8W5NVR2I=",
   "Source": "E-commerce",
   "BasePath": "_content/E-commerce",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\customerImages\\guru.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\customerImages\\w1.png",
+      "SourceId": "E-commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\",
+      "BasePath": "_content/E-commerce",
+      "RelativePath": "customerImages/w1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\customerImages\\w1.png"
     },
     {
       "Identity": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\wwwroot\\customerImages\\w2.png",

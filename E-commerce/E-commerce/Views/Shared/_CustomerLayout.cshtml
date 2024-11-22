@@ -77,15 +77,13 @@
                             <li><a class="dropdown-item" href="#">Discounts</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Contact
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="contactDropdown">
-                            <li><a class="dropdown-item" href="#">Customer Support</a></li>
-                            <li><a class="dropdown-item" href="#">Feedback</a></li>
-                        </ul>
-                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("FeedBack", "Customer")">
+                    Contact
+                    </a>
+                   </li
+
+
                 </ul>
                 @if (ViewBag.checkSession == null)
                 {
