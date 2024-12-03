@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\E-commerce.csproj": {}
+    "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\TODO Application\\TODO Application\\TODO Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\E-commerce.csproj": {
+    "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\TODO Application\\TODO Application\\TODO Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\E-commerce.csproj",
-        "projectName": "E-commerce",
-        "projectPath": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\E-commerce.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\TODO Application\\TODO Application\\TODO Application.csproj",
+        "projectName": "TODO Application",
+        "projectPath": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\TODO Application\\TODO Application\\TODO Application.csproj",
         "packagesPath": "C:\\Users\\Mohammad Robass\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\E-commerce\\E-commerce\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad Robass\\Desktop\\My Work\\DOT NET\\TODO Application\\TODO Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohammad Robass\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,28 +44,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Session": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[8.0.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -50,65 +50,49 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
         <div class="container">
-            <a class="navbar-brand" href="#">ShopEase</a>
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-bag-check-fill me-2"></i>ShopEase</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Home
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index","Customer")">
+                            <i class="bi bi-house-fill me-1"></i> Home
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="homeDropdown">
-                            <li><a class="dropdown-item" href="#">Overview</a></li>
-                            <li><a class="dropdown-item" href="#">Popular Products</a></li>
-                        </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Products
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("FeedBack", "Customer")">
+                            <i class="fa-solid fa-envelope"></i> Contact
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="#">New Arrivals</a></li>
-                            <li><a class="dropdown-item" href="#">Best Sellers</a></li>
-                            <li><a class="dropdown-item" href="#">Discounts</a></li>
-                        </ul>
                     </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="@Url.Action("FeedBack", "Customer")">
-                    Contact
-                    </a>
-                   </li
-
-
                 </ul>
                 @if (ViewBag.checkSession == null)
                 {
                     <div class="d-flex">
-                        <button class="btn btn-outline-light me-2" type="button" data-bs-toggle="modal" data-bs-target="#signInModal">
-                            <a href="@Url.Action("Login", "Customer")" class="text-decoration-none">Sign In</a>
-                        </button>
-                        <button class="btn btn-primary " type="button" data-bs-toggle="modal" data-bs-target="#signUpModal">
-                            <a href="@Url.Action("Signup", "Customer")" class="text-decoration-none text-white">Sign Up</a>
-                        </button>
+                        <a href="@Url.Action("Login", "Customer")" class="btn btn-outline-light me-2">
+                            <i class="bi bi-box-arrow-in-right me-1"></i>Login
+                        </a>
+                        <a href="@Url.Action("Signup", "Customer")" class="btn btn-primary text-white">
+                            <i class="bi bi-person-plus-fill me-1"></i>Sign up
+                        </a>
                     </div>
                 }
                 else
                 {
                     <div class="d-flex">
-                        <button class="btn btn-outline-light me-2" type="button">
-                            <a href="@Url.Action("Profile", "Customer")" class="text-decoration-none">Profile</a>
-                        </button>
-                        <button class="btn btn-outline-light me-2" type="button">
-                            <a href="@Url.Action("Logout", "Customer")" class="text-decoration-none">Logout</a>
-                        </button>
-                        <button class="btn btn-outline-light me-2" type="button">
-                            <a href="@Url.Action("AllCart", "Customer")" class="text-decoration-none">Cart</a>
-                        </button>
-                       
+                        <a href="@Url.Action("Profile", "Customer")" class="btn btn-outline-light me-2">
+                            <i class="fa-regular fa-user"></i>
+                        <a href="@Url.Action("Logout", "Customer")" class="btn btn-outline-light me-2">
+                            Logout
+                        </a>
+                        <a href="@Url.Action("AllCart", "Customer")" class="btn btn-outline-light">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
                     </div>
                 }
             </div>
